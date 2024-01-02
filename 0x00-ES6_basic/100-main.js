@@ -1,7 +1,7 @@
-import createIteratorObject from './100-createIteratorObject';
+import createIteratorObject from './100-createIteratorObject.js';
 
-import createEmployeesObject from './11-createEmployeesObject';
-import createReportObject from './12-createReportObject';
+import createEmployeesObject from './11-createEmployeesObject.js';
+import createReportObject from './12-createReportObject.js';
 
 const employees = {
   ...createEmployeesObject('engineering', ['Bob', 'Jane']),
